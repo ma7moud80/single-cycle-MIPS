@@ -1,0 +1,75 @@
+# vsim work.Top_Module_View 
+# Loading work.Top_Module_View
+# Loading work.Instruction_Memory
+# Loading work.Data_Memory
+# Loading work.Mips_processor
+# Loading work.data_path
+# Loading work.Register_File
+# Loading work.alu
+# Loading work.Program_Counter
+# Loading work.MUX
+# Loading work.Adder
+# Loading work.signExtend
+# Loading work.shiftlefttwice
+# Loading work.Control_unit
+# Loading work.main_decoder
+# Loading work.alu_decoder
+add wave -position insertpoint  \
+sim:/Top_Module_View/Clk \
+sim:/Top_Module_View/Reset \
+sim:/Top_Module_View/test
+force -freeze sim:/Top_Module_View/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/Top_Module_View/Reset 0 0
+run
+force -freeze sim:/Top_Module_View/Reset St1 0
+run
+# Not Used
+run
+run
+# Not Used
+run
+run
+run
+# Not Used
+run
+run
+run
+run
+# Not Used
+run
+run
+run
+run
+# Not Used
+run
+run
+run
+run
+# Not Used
+run
+run
+run
+run
+# Not Used
+run
+run
+run
+run
+# Not Used
+run
+run
+run
+run
+# Not Used
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
